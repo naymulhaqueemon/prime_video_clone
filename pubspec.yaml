@@ -1,0 +1,29 @@
+name: prime_video
+description:  Video streaming platfrom prime video UI clone using github.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: null
+  get: null
+  google_fonts: null
+  hive: null
+  hive_flutter: null
+  intl: null
+  webview_flutter: 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
